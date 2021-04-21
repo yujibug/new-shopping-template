@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Online Shopping</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="src/main.js" defer></script>
+    </head>
+
+    <body>
+        <!-- logo -->
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <!-- button -->
+        <section class="buttons">
+            <button class="btn">
+                <img
+                    src="img/blue_t.png"
+                    alt="t-shirt"
+                    class="imgBtn"
+                    data-key="type"
+                    data-value="tshirt"
+                />
+            </button>
+            <button class="btn">
+                <img
+                    src="img/blue_p.png"
+                    alt="pants"
+                    class="imgBtn"
+                    data-key="type"
+                    data-value="pants"
+                />
+            </button>
+            <button class="btn">
+                <img
+                    src="img/blue_s.png"
+                    alt="skirt"
+                    class="imgBtn"
+                    data-key="type"
+                    data-value="skirt"
+                />
+            </button>
+            <button
+                class="btn colorBtn blueBtn"
+                data-key="color"
+                data-value="blue"
+            >
+                blue
+            </button>
+            <button
+                class="btn colorBtn yellowBtn"
+                data-key="color"
+                data-value="yellow"
+            >
+                yellow
+            </button>
+            <button
+                class="btn colorBtn pinkBtn"
+                data-key="color"
+                data-value="pink"
+            >
+                pink
+            </button>
+        </section>
+        <!-- scroll -->
+        <ul class="items"></ul>
+    </body>
+</html>
